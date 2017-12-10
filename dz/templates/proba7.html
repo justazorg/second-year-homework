@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета и немного ссылок</title>
+</head>
+<body>
+<form action='/answers'>
+    <label>Как вас зовут? <input type="text" name="name"> </label><br>
+    <label>Знаешь ли ты английский язык? <input type="text" name="answer_1"></label><br>
+	<label>Сколько тебе лет? <input type="text" name="answer_2"></label><br>
+	<label>Знаешь ли ты другие языки? <input type="text" name="answer_3"></label><br>
+	<label>Как ты переведешь это слово""? <input type="text" name="answer_4"></label><br>
+	<label>А это""? <input type="text" name="answer_5"></label><br>
+    <input type="submit" value="Отправить">
+</form>
+<p>Ссылки на другие сайты</p>
+<ul>
+    <li><a href="{{ url }}">search</a></li>
+	<li><a href="{{url}}">json</a></li>
+	<li><a href="{{url}}">stats</a></li>
+</ul>
+</body>
+</html>
