@@ -1,3 +1,5 @@
+#I've lost more than 20 hours on this homework. Read all the seminars and additional literature but did not understand anything
+
 import json
 from flask import Flask, render_template, request, url_for, redirect
 app = Flask(__name__)
